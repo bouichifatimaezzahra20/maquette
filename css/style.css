@@ -1,0 +1,275 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+*{
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+a{
+text-decoration: none;
+}
+main{
+  margin-left: 340px;
+  margin-right: 50px;
+}
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0%;
+        padding: 0%;
+    }
+    body, h1, h2, h3 {
+        font-family: "Poppins", sans-serif;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      width: 300px;
+      height:100%;
+      top: 0px;
+      left: -10px;
+      background-color: #F44336;
+      position: fixed;
+      font-family: 'poppins';
+    }
+    .menu{
+      margin: 80px 10px 0px 20px;
+  }
+   ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+   }
+   nav h3 {
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    }
+  nav li a{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    height: 32px;
+    width: 210px;
+    margin-top: 10px;
+  }
+  nav li a:hover{
+      background-color: white;
+      color: black;
+  }
+    .head h1{
+      text-align: left;
+      margin-left: 338px;
+    }
+  .h2{
+    text-align: left;
+   color: #F44336;
+  }
+  .artcl{
+    text-align: left;
+    margin-right: 50px;
+    color: #3A3B39;
+  }
+  #back{
+    text-align: left;
+    overflow: hidden;
+  }
+  .light{
+    font-size: 18px;
+    color: #808080;
+    margin-left: 20px;
+  }
+  h3{
+    margin-left: 20px;
+  }
+#packages{
+  text-align: left;
+}
+img{
+  width: 417.66px;
+}
+.team{
+  width: 100px;
+}
+.back{
+ float: left;
+  margin-right: 50px;
+}
+.wrapper{
+  display: flex;
+  margin-left: -10px;
+}
+.des img{
+  width: 273.1px;
+  height: 181.89px;
+  margin-bottom: -6px;
+  margin-top: 0px;
+}
+.des img:hover{
+  opacity:1 ;
+}
+.des{
+  background-color: #f1f1f1;
+  padding-bottom: 20px;
+  margin: 10px;
+  filter: grayscale(0.8);  
+  }
+  .text{
+    margin-left: 20px;
+  }
+#table{
+  display: flex;
+  gap: 15px;
+}
+table{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(241, 241, 241);
+  margin-bottom: 120px;
+  font-family: 'Poppins', sans-serif;
+}
+#basic td{
+  border-bottom:solid 1px  rgba(128, 128, 128, 0.119) ;
+  text-align: center;
+}
+#basic th{
+  font-size: x-large;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #717171;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+#basic button{
+  background-color: white;
+  color: black;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#basic button:hover{
+  background-color: #717171;
+  color: #ffffff;
+}
+#pro th{
+  font-size: x-large;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #fd0303;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+#pro  td{
+  border-bottom:solid 1px rgba(128, 128, 128, 0.119);
+  text-align: center;
+}
+#pro button{
+  background-color: rgb(209, 25, 25);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#pro button:hover{
+  background-color: #717171;
+}
+.price{
+  font-size: xx-large;
+}
+.object{
+  color: #808080;
+}
+.data{
+  height: 8em;
+}
+input[type=text], select{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+.registerbtn {
+  background-color: #F44336;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+  padding: 12px 24px
+}
+
+.registerbtn:hover {
+background-color: #808080;
+}
+hr {
+  height: 10px;
+  width: 60px;
+  color: #FFFFFF;
+  border: solid 5px #F44336;
+  border-radius: 22px;
+  margin-left: 0px;
+  margin-bottom: 35px;
+  margin-top: 15px;
+  
+}
+footer {
+  background-color: rgb(235, 235, 235);
+  height: 130px;
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: -16px;
+  margin-right: 0px;
+}
+footer p {
+  position: absolute;
+  right: 0px;
+  padding: 50px 45px 40px 0px;
+}
+#w3css {
+  text-decoration: underline;
+}
+footer a:visited {
+  color: black;
+}
+footer a:hover {
+  color: rgb(133, 133, 133);
+}
+.icons {
+  font-size: 100%;
+  position: absolute;
+ padding-left: 330px;
+  margin-top: 45px;
+}
+.fa{
+  margin-right: 20px;
+  margin-top: 28px;
+}
+.icons i:hover {
+  color: white;
+}
+.follow{
+  margin-right: 64%;
+  margin-top: -15px;
+}
